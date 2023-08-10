@@ -1,0 +1,59 @@
+<!-- HTML Structure -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta tags and external stylesheets -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./myscript.js" defer></script>
+
+    <!-- Page title and internal styles -->
+    <title>Daily Routine Tracker</title>
+  </head>
+
+  <body>
+    <!-- Main content section -->
+    <section class="flex flex-col items-center mt-8 px-4">
+      <!-- Page header -->
+      <h1 class="text-2xl text-center mb-1">Daily Routine Tracker 🚀</h1>
+
+      <!-- Today's date display -->
+      <h2 id="today-date" class="text-1xl mb-4"></h2>
+
+      <!-- Habit input form -->
+      <form id="habit-form" class="flex flex-col mb-10 w-full">
+        <label for="habit-name" class="text-m mb-2">Task/Habit name:</label>
+        <input
+          type="text"
+          id="habit-name"
+          class="border-2 rounded px-3 py-2 focus:outline-none focus:border-blue-300 mb-6 w-full"
+          style="border-color: #60a5fa"
+        />
+        <button type="submit" class="retro-btn w-full">Add Work</button>
+      </form>
+
+      <!-- Display habits section -->
+      <section
+        id="output"
+        class="w-full flex flex-col items-center text-xl"
+      ></section>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="text-center mt-8">
+      <h5>
+        Made by Team-09
+        <i class="fa fa-heart" aria-hidden="true" style="color: #ff5e97"></i>
+      </h5>
+    </footer>
+  </body>
+</html>
