@@ -3,7 +3,7 @@
 A simple web application to help you track your daily routine tasks. You can add tasks, mark them as completed for each day of the week, and easily manage your habits.
 
 <span><img src="https://user-images.githubusercontent.com/114942451/259621366-b233d4b7-8b79-4765-af57-d1a566ec2f5d.png" alt="input task" width="300" height="600"></span>
-<img src="https://user-images.githubusercontent.com/114942451/259621374-efca20b3-a15c-4da8-8a86-ee8a7c4c0f43.png" alt="track task" width="300" height="600">
+<span><img src="https://user-images.githubusercontent.com/114942451/259621374-efca20b3-a15c-4da8-8a86-ee8a7c4c0f43.png" alt="track task" width="300" height="600"></span>
 
 ## Features
 
