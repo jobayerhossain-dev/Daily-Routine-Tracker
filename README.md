@@ -29,6 +29,12 @@ A simple web application to help you track your daily routine tasks. You can add
 3. You can mark a task as completed for each day by click daylabel or
    to remove a task, click the red "X" delete button next to the task.
 4. The "Today's date" section displays the current date.
+5. See live >>>
+
+``` 
+https://jobayerhossain699.github.io/Daily-Routine-Tracker/ 
+
+```
 
 ## Technologies Used
 
@@ -38,8 +44,17 @@ A simple web application to help you track your daily routine tasks. You can add
 
 ## Credits
 
-Made by Team-09 ❤️. Feel free to contribute or report issues.
+This is our college project. 
+Our team name 'Team-09 ❤️'.
 
+Team members name:
+1. Jobayer Hossain (Team Leader)
+2. Md. Nasir Uddin
+3. Md. Al-Amin Munshi
+4. Md. Shazid Khan
+5. Md. Asifur Rahman Ratul
+
+Feel free to contribute or report issues.
 ## License
 
 This project is licensed under the MIT License.

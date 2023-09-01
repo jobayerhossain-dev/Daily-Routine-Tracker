@@ -1,10 +1,21 @@
-/* Body and background styling */
+/* Reset styles and imports */
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css");
+
+/* Global reset and defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global typography and background */
 body {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Styling for habit/task containers */
+/* Habit/task container */
 .habit-box {
   background-color: #f1f5f9;
   border-radius: 0.5rem;
@@ -16,7 +27,7 @@ body {
   position: relative;
 }
 
-/* Styling for "Add work" button */
+/* Button styles */
 .retro-btn {
   background-color: #60a5fa;
   color: #fff;
@@ -27,23 +38,23 @@ body {
   font-weight: bold;
   font-size: 13px;
   letter-spacing: 0.05em;
+  transition: background-color 0.9s, border-color 0.9s, color 0.9s;
+  cursor: pointer;
 }
 
-/* Hover effect for "Add work" button */
 .retro-btn:hover {
   background-color: #fff;
   color: #000;
   border: 2px solid #d8d8d8;
-  transition: 0.9s;
 }
 
-/* Styling for completed habit/task */
+/* Completed habit/task */
 .completed {
   background-color: #60a5fa;
   border-color: #25573f;
 }
 
-/* Styling for day labels */
+/* Day label styles */
 .day-label {
   text-align: center;
   width: 36px;
@@ -59,12 +70,11 @@ body {
   transition: border-width 0.25s ease-in-out;
 }
 
-/* Hover effect for day labels */
 .day-label:hover {
   border-width: 3px;
 }
 
-/* Styling for delete button */
+/* Delete button styles */
 .delete-btn {
   position: absolute;
   top: 10px;
@@ -74,14 +84,14 @@ body {
   color: red;
 }
 
-/* Responsive styling for "Add work" button */
+/* Responsive styles for button */
 @media screen and (max-width: 640px) {
   .retro-btn {
     padding: 0.25rem 0.5rem;
   }
 }
 
-/* Styling for days row and wrapper */
+/* Days row and wrapper */
 .days-row {
   display: flex;
 }
