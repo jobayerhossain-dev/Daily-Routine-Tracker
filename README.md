@@ -2,6 +2,13 @@
 
 A simple web application to help you track your daily routine tasks. You can add tasks, mark them as completed for each day of the week, and easily manage your habits.
 
+See live >>>
+
+``` 
+https://jobayerhossain699.github.io/Daily-Routine-Tracker/ 
+
+```
+
 <span><img src="https://user-images.githubusercontent.com/114942451/259621366-b233d4b7-8b79-4765-af57-d1a566ec2f5d.png" alt="input task" width="300" height="600"></span>
 <span><img src="https://user-images.githubusercontent.com/114942451/259621374-efca20b3-a15c-4da8-8a86-ee8a7c4c0f43.png" alt="track task" width="300" height="600"></span>
 
@@ -29,12 +36,7 @@ A simple web application to help you track your daily routine tasks. You can add
 3. You can mark a task as completed for each day by click daylabel or
    to remove a task, click the red "X" delete button next to the task.
 4. The "Today's date" section displays the current date.
-5. See live >>>
 
-``` 
-https://jobayerhossain699.github.io/Daily-Routine-Tracker/ 
-
-```
 
 ## Technologies Used
 
